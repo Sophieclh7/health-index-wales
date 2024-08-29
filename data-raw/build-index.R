@@ -150,7 +150,7 @@ healthy_people_subdomains <- list(
   `Mental health` = c("suicides_per_100000"),
   `Mortality` = c("avoidable_deaths_per_100000", "healthy_life_expectancy"),
   `Personal well-being` = c("anxiety_score_out_of_10", "happiness_score_out_of_10", "life_satisfaction_score_out_of_10", "worthwhileness_score_out_of_10"),
-  `Physical health conditions` = c("asthma_emergency_admissions_per_100000", "cancer_incidence_per_100000", "copd_mortality_per_100000", "heart_disease_deaths_per_100000", "dementia_mortality_per_100000", "heart_failure_admissions_per_100000", "kidney_disease_mortality_per_100000", "stroke_emergency_admissions_per_100000")
+  `Physical health conditions` = c("asthma_emergency_admissions_per_100000", "arthritis_hospital_admissions_per_100000", "cancer_incidence_per_100000", "copd_mortality_per_100000", "heart_disease_deaths_per_100000", "dementia_mortality_per_100000", "heart_failure_admissions_per_100000", "kidney_disease_mortality_per_100000", "stroke_emergency_admissions_per_100000")
 )
 
 healthy_people_composite_score <- create_composite_scores(
